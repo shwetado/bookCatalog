@@ -1,0 +1,5 @@
+----------------------------------------------------------
+RELEASE NOTES:
+1) node bookcatalog search -tag "," -> shows all records with ','
+2) node bookcatalog list -> shows list of all books but not proper display
+3) node bookcatalog tags add "isbn:xyz;tags:novel,comic" -> will add tag novel again even if it is already present.

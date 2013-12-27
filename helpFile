@@ -1,0 +1,25 @@
+
+Usage: bookCatalog [OPTION]... [PARAMETER]...
+  
+  Maintains the inventory of book which holds details of book like ISBN 
+  number, price, author, title, publisher in it.
+
+      add       <book details>                  adds a new book into inventory
+      remove    [-isbn]   <isbn_number>         removes the book of that given
+                                                isbn number
+      list                                      lists all the books present in 
+                                                the inventory
+      search    <search string>                 searches the string given in 
+                                                complete inventory and displays
+                                                book record
+      search    <search field> <search string>  searches the string given in the 
+                                                field specified and displays 
+                                                complete record
+      update    <details with isbn to update>   updates the details of the part
+                                                icular isbn number specified
+      tags      < add / remove >                adds or removes tags to the 
+                                                given isbn number
+                                                (when 'tag:' given)
+      --help    display this help and exit
+
+Report bugs to <shwetado@thoughtworks.com>.
